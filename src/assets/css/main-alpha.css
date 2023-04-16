@@ -1,0 +1,26 @@
+
+
+.header-mainWrapper{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.footer-mainWrapper{
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-container{
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.block-container{
+    border: 2px solid black;
+    padding: 70px 30px;
+    text-align: center;
+    font-size: 30px;
+}
