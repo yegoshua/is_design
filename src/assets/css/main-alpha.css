@@ -1,26 +1,112 @@
+#root {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 100vh;
+    width: 100vw;
+}
 
+.App {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 192rem;
+    position: relative;
+    width: 100%;
+}
 
 .header-mainWrapper{
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    height: 100px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .footer-mainWrapper{
-    border: 2px solid black;
     padding: 30px;
     text-align: center;
     font-size: 30px;
 }
 
-.main-container{
-    max-width: 1480px;
-    margin: 0 auto;
+.block-container{
+    font-size: 30px;
+    width: 100%;
 }
 
-.block-container{
-    border: 2px solid black;
-    padding: 70px 30px;
-    text-align: center;
-    font-size: 30px;
+.swiper-pagination-bullet-active {
+    background-color: #ff5d00 !important;
+}
+.swiper-pagination{
+    bottom: -10px !important;
+}
+
+.rewiew-quote-wrapper::after {
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 38px rgba(0,0,0,.09);
+    display: flex;
+    flex-direction: row;
+    padding: 33px 27px;
+    position: relative;
+    width: 62.4rem;
+}
+
+.partner-audi {
+    background-image: url('../img/audi.gif');
+    height: 200px;
+    width: 200px;
+}
+
+.partner-audi:hover {
+    filter: grayscale(1);
+}
+
+.parnter-logo{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(1);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.parnter-logo:hover{
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.partner-volkswagen {
+    background-image: url('../img/volvo.png');
+}
+
+.partner-volkswagen:hover {
+    
+}
+
+.pertner-volvo {
+    background-image: url(../img/volvo.png); 
+}
+
+.pertner-volvo:hover {
+    background-image: url(../../../assets/images/volvo-hover.png); 
+}
+
+.pertner-toyota {
+    background-image: url(../img/toyota.png); 
+}
+
+.pertner-toyota:hover {
+    background-image: url(../../../assets/images/toyota-hover.png); 
+}
+
+.pertner-bmw {
+    background-image: url(../img/bmw.png); 
+}
+
+.pertner-bmw:hover {
+    background-image: url(../../../assets/images/peugeot-hover.png); 
 }
